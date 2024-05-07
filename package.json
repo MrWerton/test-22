@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "tsc && pm2 start ./ecosystem.config.js "
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "pm2": "^5.3.1",
+    "typescript": "^5.4.5"
+  }
+}
