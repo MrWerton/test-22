@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 app.use(express.json());
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
    return res.json('Hello World');
 });
 
